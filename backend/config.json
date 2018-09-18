@@ -1,0 +1,354 @@
+{
+    "typeCode": "OJB",
+    "label": "OOjiBO",
+    "description": "OOjiBO Rvyer Protocol Demo",
+    "xCoin": {
+        "typeCode": "STABLE_COIN",
+        "label": "Stable Coin",
+        "description": "The coolest Stable Coin on earth",
+        "symbol": "STC",
+        "initialSupply": "90000000000000000000",
+        "decimals": 2,
+        "currencyCode": 125
+    },
+    "banks": [
+        {
+            "typeCode": "BPT",
+            "label": "Pattaya Bank",
+            "description": "The coolest Pattaya Bank on earth",
+            "countryCode": 764,
+            "accounts": [
+                {
+                    "typeCode": "SAV",
+                    "label": "Savings",
+                    "description": "The coolest Pattaya Bank Account (Savings) on earth",
+                    "symbol": "THB",
+                    "initialSupply": 0,
+                    "decimals": 2,
+                    "currencyCode": 764,
+                    "BIN": "4076410000000000",
+                    "autoRegisters": [
+                    ],
+                    "autoFunds": {
+                    }
+                }
+            ],
+            "services": {
+                "TRANSFER": {
+                    "label": "Transfer",
+                    "description": "The coolest Pattaya Bank service (Transfer) on earth"
+                },
+                "PAYROLL": {
+                    "label": "Payroll",
+                    "description": "The coolest Pattaya Bank service (Payroll) on earth"
+                },
+                "RETAIL": {
+                    "label": "Retail Payment",
+                    "description": "The coolest Pattaya Bank service (Retail payment) on earth"
+                }
+            }
+        },
+        {
+            "typeCode": "BYG",
+            "label": "Yangon Bank",
+            "description": "The coolest Yangon Bank on earth",
+            "countryCode": 104,
+            "accounts": [
+                {
+                    "typeCode": "SAV",
+                    "label": "Savings",
+                    "description": "The coolest Yangon Bank Account (Savings) on earth",
+                    "symbol": "MMK",
+                    "initialSupply": 0,
+                    "decimals": 2,
+                    "currencyCode": 104,
+                    "BIN": "4010410000000000",
+                    "autoRegisters": [
+                    ],
+                    "autoFunds": {
+                    }
+                }
+            ],
+            "services": {
+                "TRANSFER": {
+                    "label": "Transfer",
+                    "description": "The coolest Yangon Bank service (Transfer) on earth"
+                },
+                "PAYROLL": {
+                    "label": "Payroll",
+                    "description": "The coolest Yangon Bank service (Payroll) on earth"
+                },
+                "RETAIL": {
+                    "label": "Retail Payment",
+                    "description": "The coolest Yangon Bank service (Retail payment) on earth"
+                }
+            }
+        },
+        {
+            "typeCode": "BSG",
+            "label": "Singapore Bank",
+            "description": "The coolest Singapore Bank on earth",
+            "countryCode": 702,
+            "accounts": [
+                {
+                    "typeCode": "SAV",
+                    "label": "Savings",
+                    "description": "The coolest Singapore Bank Account (Savings) on earth",
+                    "symbol": "SGD",
+                    "initialSupply": 0,
+                    "decimals": 2,
+                    "currencyCode": 702,
+                    "BIN": "4070210000000000",
+                    "autoRegisters": [
+                    ],
+                    "autoFunds": {
+                    }
+                }
+            ],
+            "services": {
+                "TRANSFER": {
+                    "label": "Transfer",
+                    "description": "The coolest Singapore Bank service (Transfer) on earth"
+                },
+                "PAYROLL": {
+                    "label": "Payroll",
+                    "description": "The coolest Singapore Bank service (Payroll) on earth"
+                },
+                "RETAIL": {
+                    "label": "Retail Payment",
+                    "description": "The coolest Singapore Bank service (Retail payment) on earth"
+                }
+            }
+        },
+        {
+            "typeCode": "BKL",
+            "label": "KL Bank",
+            "description": "The coolest KL bank on earth",
+            "countryCode": 458,
+            "accounts": [
+                {
+                    "typeCode": "SAV",
+                    "label": "Savings",
+                    "description": "The coolest KL Bank Account (Savings) on earth",
+                    "symbol": "MYR",
+                    "initialSupply": 0,
+                    "decimals": 2,
+                    "currencyCode": 458,
+                    "BIN": "4045810000000000",
+                    "autoRegisters": [
+                    ],
+                    "autoFunds": {
+                    }
+                },
+                {
+                    "typeCode": "CUR",
+                    "label": "Current",
+                    "description": "The coolest KL Bank Account (Current) on earth",
+                    "symbol": "MYR",
+                    "initialSupply": 0,
+                    "decimals": 2,
+                    "currencyCode": 458,
+                    "BIN": "4045820000000000",
+                    "autoRegisters": [
+                        "0x7012b591303caff60d0d77e8cd8bce8f0038ad11",
+                        "0x87e99346e913b7ca1ba6974a9874a5e69f3febd8",
+                        "0xe81de9d6b11e9efbc49d5705ec8dff782bc90081",
+                        "0xbcddd9030c743233fcf50ec33a2441e835345175"
+                    ],
+                    "autoFunds": {
+                        "1000000000000000000": [
+                            "0x7012b591303caff60d0d77e8cd8bce8f0038ad11"
+                        ]
+                    }
+                }
+            ],
+            "services": {
+                "TRANSFER": {
+                    "label": "Transfer",
+                    "description": "The coolest KL Bank service (Transfer) on earth"
+                },
+                "PAYROLL": {
+                    "label": "Payroll",
+                    "description": "The coolest KL Bank service (Payroll) on earth"
+                },
+                "RETAIL": {
+                    "label": "Retail Payment",
+                    "description": "The coolest KL Bank service (Retail payment) on earth"
+                }
+            }
+        }
+    ],
+    "exchangeRates": [
+        {
+            "comment": "THB-STC",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 125,
+            "rate": 33000
+        },
+        {
+            "comment": "THB-SGD",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 702,
+            "rate": 24000
+        },
+        {
+            "comment": "THB-MYR",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 458,
+            "rate": 8000
+        },
+        {
+            "comment": "THB-MMK",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 104,
+            "rate": 22
+        },
+        {
+            "comment": "THB-HKD",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 344,
+            "rate": 4180
+        },
+        {
+            "comment": "THB-IDR",
+            "soCurrencyCode": 764,
+            "toCurrencyCode": 360,
+            "rate": 2
+        },
+        {
+            "comment": "MYR-STC",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 125,
+            "rate": 4200
+        },
+        {
+            "comment": "MYR-SGD",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 702,
+            "rate": 3000
+        },
+        {
+            "comment": "MYR-THB",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 764,
+            "rate": 1240
+        },
+        {
+            "comment": "MYR-MMK",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 104,
+            "rate": 3
+        },
+        {
+            "comment": "MYR-HKD",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 344,
+            "rate": 530
+        },
+        {
+            "comment": "MYR-IDR",
+            "soCurrencyCode": 458,
+            "toCurrencyCode": 360,
+            "rate": 1
+        },
+        {
+            "comment": "SGD-STC",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 125,
+            "rate": 1380
+        },
+        {
+            "comment": "SGD-MYR",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 458,
+            "rate": 330
+        },
+        {
+            "comment": "SGD-THB",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 764,
+            "rate": 42
+        },
+        {
+            "comment": "SGD-MMK",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 104,
+            "rate": 1
+        },
+        {
+            "comment": "SGD-HKD",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 334,
+            "rate": 180
+        },
+        {
+            "comment": "SGD-IDR",
+            "soCurrencyCode": 702,
+            "toCurrencyCode": 360,
+            "rate": 1
+        },
+        {
+            "comment": "MMK-STC",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 125,
+            "rate": 1544000
+        },
+        {
+            "comment": "MMK-MYR",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 458,
+            "rate": 370750
+        },
+        {
+            "comment": "MMK-THB",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 764,
+            "rate": 46330
+        },
+        {
+            "comment": "MMK-SGD",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 702,
+            "rate": 1111140
+        },
+        {
+            "comment": "MMK-HKD",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 334,
+            "rate": 197410
+        },
+        {
+            "comment": "MMK-IDR",
+            "soCurrencyCode": 104,
+            "toCurrencyCode": 360,
+            "rate": 100
+        }
+    ],
+    "autoEthers": {
+        "comment": "Sender address must be same as deployment account",
+        "from": "0xe06d0cdf8859fd84026f3f20b34da836e294dc70",
+        "value": "10000000000000000000",
+        "addresses": [
+            "0x0469cb8ca1426268425680ae575130cbe20ac1cb",
+            "0x3bed7a6d7a27b6c1dfeb3cd14e6f5ca393671eda",
+            "0x5431ae75aa66b8311b35168365175e1adb335f12",
+            "0x7443c38f6f94f728ba1adfc5493c959c5711e2e9",
+            "0xe564cee345179b1639b79b2570ed7e527a11a3ea",
+            "0x0c3c51f00e4360c2af700d097056c691256ef91e",
+            "0x57dc8469c5e5eeed3d1573801a18ece72614ca52",
+            "0x995f38e94d8189d83bc5d5d55ea1cfa0a7c87af9",
+            "0x0278e42607b6bff8230048465aa8594afb521ed9",
+            "0x13f233c45258eba4e31f9e913d1d106f0af8f30f",
+            "0xc475614094be1be05195114356ce37f2b703dcbc",
+            "0xcd3bf9506c2820496b626d8752c1fb6d6d51d9fe",
+            "0xe2f2ad489c3dc2f967efe984599ed7612cbad268",
+            "0x7012b591303caff60d0d77e8cd8bce8f0038ad11",
+            "0xddf417e6d8995c270620636b224b12f86fcb31c5",
+            "0x58f364113f894f0d38a269006ecf61bc0f2bc8e7",
+            "0x4752998486f25bd4a8f6b6fbd6b0665472d8ccb0",
+            "0x87e99346e913b7ca1ba6974a9874a5e69f3febd8",
+            "0xe81de9d6b11e9efbc49d5705ec8dff782bc90081",
+            "0xbcddd9030c743233fcf50ec33a2441e835345175"
+        ]
+    }
+}
